@@ -1,0 +1,13 @@
+server:
+  port: 8101
+spring:
+  application:
+    name: click-uz-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/ismoil0709/click-uz-config-server-properties.git
+          username: ismoil0709
+          password: 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
